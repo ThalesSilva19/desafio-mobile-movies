@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Filmes Tokenlab',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(primarySwatch: Colors.blue),
+      theme: ThemeData(primarySwatch: Colors.deepPurple),
       home: BlocProvider<HomeCubit>(
         create: (context) => HomeCubit(HomeInitialState()),
         child: const HomePage(),

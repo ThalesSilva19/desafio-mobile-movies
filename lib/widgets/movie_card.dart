@@ -33,12 +33,11 @@ class MovieCard extends StatelessWidget {
               child: Container(
                 height: 300,
                 width: 200,
-                color: Colors.cyan,
+                color: Colors.black,
                 child: Center(
-                    child: Text(
-                  movie.title.toString(),
-                  textAlign: TextAlign.center,
-                )),
+                    child: Text(movie.title.toString(),
+                        textAlign: TextAlign.center,
+                        style: const TextStyle(color: Colors.white))),
               ),
             ),
           );
