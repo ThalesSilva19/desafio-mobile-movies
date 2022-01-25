@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tokenlab_movie_app/modules/movie_module.dart';
+import 'package:tokenlab_movie_app/models/movie_model.dart';
 
 class MovieDetails extends StatelessWidget {
   final Movie movie;

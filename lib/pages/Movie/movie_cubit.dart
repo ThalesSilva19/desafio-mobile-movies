@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tokenlab_movie_app/modules/movie_module.dart';
+import 'package:tokenlab_movie_app/models/movie_model.dart';
 import 'package:tokenlab_movie_app/pages/Movie/movie_state.dart';
 import 'package:http/http.dart' as http;
 

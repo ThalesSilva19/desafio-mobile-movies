@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tokenlab_movie_app/modules/movie_module.dart';
+import 'package:tokenlab_movie_app/models/movie_model.dart';
 import 'package:tokenlab_movie_app/pages/Movie/movie_cubit.dart';
 import 'package:tokenlab_movie_app/pages/Movie/movie_page.dart';
 import 'package:tokenlab_movie_app/pages/Movie/movie_state.dart';
